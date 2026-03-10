@@ -1,0 +1,21 @@
+# Secrets — JAMAIS sur GitHub
+.env
+*.key
+secrets.toml
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+# Environnements virtuels
+venv/
+.venv/
+env/
+# Éditeurs
+.vscode/
+.idea/
+*.DS_Store
+# Données sensibles
+*.csv
+*.db
+*.sqlite
